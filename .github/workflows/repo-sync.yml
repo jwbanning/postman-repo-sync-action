@@ -26,4 +26,4 @@ jobs:
           env-runtime-urls-json: '{"prod":"https://api.example.com","stage":"https://stage.example.com"}'
           postman-api-key: ${{ secrets.POSTMAN_API_KEY }}
           postman-access-token: ${{ secrets.POSTMAN_ACCESS_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
