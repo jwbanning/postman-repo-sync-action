@@ -18,7 +18,7 @@ jobs:
       - uses: postman-cs/postman-repo-sync-action@v0
         with:
           project-name: your-service-name
-          workspace-id: "cc40dac9-5803-4f5e-89a8-077783b88a03"
+          workspace-id: "190232c5-a08c-4fda-912a-b76242b726f7"
           baseline-collection-id: col-baseline
           smoke-collection-id: col-smoke
           contract-collection-id: col-contract
