@@ -22,7 +22,7 @@ jobs:
           baseline-collection-id: col-baseline
           smoke-collection-id: col-smoke
           contract-collection-id: col-contract
-          environments-json: '["prod","stage"]'
+          environments-json: '["44549813-0bd98294-6456-4958-a121-45ac59a3cc78","44549813-9855e9da-345c-42b3-8c9a-52db0fe472cd"]'
           env-runtime-urls-json: '{"prod":"https://api.example.com","stage":"https://stage.example.com"}'
           postman-api-key: ${{ secrets.POSTMAN_API_KEY }}
           postman-access-token: ${{ secrets.POSTMAN_ACCESS_TOKEN }}
